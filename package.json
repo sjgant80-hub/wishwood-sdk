@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/wishwood-sdk",
+  "version": "1.0.0",
+  "description": "wishwood SDK · sovereign single-file library extracted from wishwood/index.html",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": ["src", "docs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test test/",
+    "smoke": "node examples/smoke.js"
+  },
+  "keywords": ["wishwood", "sdk", "sovereign", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/wishwood-sdk.git"
+  },
+  "homepage": "https://sjgant80-hub.github.io/wishwood-sdk/",
+  "publishConfig": {
+    "access": "public"
+  }
+}
